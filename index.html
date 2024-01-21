@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="nav-cont">
+        <div class="nav-head">
+            <i class="fa-solid fa-face-grin-beam"></i>
+            POR<span>TF</span>OLIO
+        </div>
+        <div class="nav-list">
+            <div class="list"><a href="#">Home</a></div>
+            <div class="list"><a href="#about_id">About Us</a></div>
+            <div class="list"><a href="#services">Service</a></div>
+            <div class="list"><a href="#portfolio">Portfolio</a></div>
+            <div class="list"><a href="#contact">Contact</a></div>
+        </div>
+    </div>
+    <div class="hero-cont">
+        <div class="content-cont">
+            <h1>Hi!<br> I'm <span>Shidhanjli</span><br> From India</h1>
+            <p>I am a front-end developer. I design and develop experience that make people's life simpler through Web apps.
+               I work with HTML,CSS,JavaScript and java.
+            </p>
+            <button type="submit" class="btn btn3">Hire Me</button>
+        </div>
+        <div class="image-cont">
+            <img src="./image/profilt.jpg" alt="random-image">
+        </div>
+    </div>
+    <!-- ------------------about section---------------- -->
+    <div class="about" id="about_id">
+        <div class="contenttab-contenter">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/about.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>A self-motivated front-end developer with experience in building responsive and interactive user interfaces using html and Css.
+                         Skilled in HTML, CSS, JavaScript, and web development best practices. </p>
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Html/Css</span><br>Web Apps development</li>
+                            <li><span>JavaScript</span><br>Web Apps Development</li>
+                            <li><span>Java</span><br>Software Development</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2019</span><br>Developed and maintained web applications using HTMLand CSS</li>
+                            <li><span>2022</span><br>Worked collaboratively with cross-functional teams</li>
+                            <li><span>2023</span><br>Implemented responsive design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2017-2019</span><br>Intermdediate from JNV</li>
+                            <li><span>2019-2022</span><br>BCA from Patna University</li>
+                            <li><span>2023-2025</span><br>MCA from VIT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------srvices---------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development refers to the process of building websites and web applications. It involves a combination of programming, design, and other technical skills to create functional and interactive websites.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design refers to the visual and aesthetic aspect of creating websites. It involves designing the layout, color scheme, typography, and graphical elements of a website to create an appealing and engaging ui.c</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p> Designing an app involves considering various aspects such as user experience (UX), user interface (UI), functionality, and overall aesthetics. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- ------------------Portfolio---------------- -->
+
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="Sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/Hospital.jpg">
+                    <div class="layer">
+                        <h3>Hospital Management </h3>
+                        <p>The website Developed for a hospital .</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/bank1.jpg" >
+                    <div class="layer">
+                        <h3>Bank Management</h3>
+                        <p>The website provide facility to customer for online bank services</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/shopping-banner.jpg" >
+                    <div class="layer">
+                        <h3>Shopping Cart</h3>
+                        <p>It's a website for illustarting Shopping Cart of an Ecommerce webiste</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+      <!-- ------------------contact---------------- -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>shidanjali9621@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 9123265467</p>
+                    <p><i class="fa-solid fa-house"></i>Aurangabad Bihar, India</p>
+                    <div class="social-icon">
+                        <a href="https://github.com/Shidhanjali"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shidhanjali-kumari-107721240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/_shidhanjali1_269_?igsh=MTlpcDh3MjF2cWNqbQ=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/shindhu.desai"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="image/resume.pdf" download class=" btn btn2">Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="use@xyv.com" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Send message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@Shidhanjli. Made with <i class="fa-solid fa-heart"></i> by Me</p>
+        </div>
+      </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontents = document.getElementsByClassName("tab-content");
+       
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link") ;
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>  
+</body>  
+</html>
